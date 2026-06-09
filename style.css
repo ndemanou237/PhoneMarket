@@ -130,11 +130,12 @@ footer{
         /* padding-left: 27%; */
         grid-template-columns: 1fr;
         gap: 10px;
+        padding-left: 0;
     }
     .font span{
-        margin-left: 25%;
-        width: 50px;
-        height: 50px;
+        /* margin-left: 25%; */
+        /* width: 50px;
+        height: 50px; */
     }
     .home .search{
         display: flex;
@@ -160,6 +161,16 @@ footer{
         height: fit-content;
         width: fit-content;
     }
+    .first{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    /* .first span{
+        width: 100px;
+        height: 100px;
+    } */
+     
     
     
 }
